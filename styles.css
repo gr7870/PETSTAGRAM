@@ -19,7 +19,7 @@
     margin: 0;
     color: var(--text-black);
     line-height: 130%;
-    background-color: var(--off-white);
+    background-color: purple
   }
   
   strong {
@@ -29,7 +29,7 @@
   /* Header */
   
   .top-bar {
-    background-color: var(--white);
+    background-color: rgb(26, 84, 241);
     border-bottom: 1px solid var(--border-gray);
     padding: 0.75rem 1rem;
     position: sticky;
@@ -118,7 +118,7 @@
     margin-bottom: 1rem;
     border-radius: 8px;
     border: 1px solid var(--border-gray);
-    background-color: var(--white);
+    background-color: var(--off-white);
     font-size: 10.5pt;
   }
   
@@ -174,13 +174,13 @@
     pointer-events: none;
   }
   
-  .post > .actions > .like-btn:not(.active) > path:last-child {
+   .post > .actions > .like-btn:not(.active) > path:last-child {
     display: none;
   }
   
   .post > .actions > svg:last-child {
     margin-left: auto;
-  }
+  } 
   
   .post > .likes,
   .post > .description {
